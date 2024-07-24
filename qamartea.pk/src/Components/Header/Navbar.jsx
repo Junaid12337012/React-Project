@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-black text-2xl font-bold">
                     <Link to="/">
-                        <h3>logo</h3>
+                        <h3 className='transform transition-all duration-300 hover:text-accentSunset hover:scale-105'>logo</h3>
                     </Link>
                 </div>
                 <div className="block md:hidden">

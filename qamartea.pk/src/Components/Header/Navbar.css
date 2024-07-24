@@ -1,0 +1,19 @@
+/* src/Navbar.css */
+
+#navbar-menu {
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  #navbar-menu.block {
+    max-height: 500px; /* Adjust according to your content height */
+  }
+  
+  button {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button.rotate-90 {
+    transform: rotate(90deg);
+  }
+  

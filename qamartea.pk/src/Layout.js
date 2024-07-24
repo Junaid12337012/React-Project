@@ -5,7 +5,7 @@ import Navbar from './Components/Header/Navbar';
 
 const Layout = () => {
   return (
-    <div className='w-screen h-screen bg-black text-white'>
+    <div>
       <Navbar/>
         <Outlet/>
       <Footer/>

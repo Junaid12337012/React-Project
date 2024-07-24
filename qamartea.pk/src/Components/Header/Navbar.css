@@ -1,8 +1,9 @@
 /* src/Navbar.css */
 
 #navbar-menu {
-    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
     overflow: hidden;
+    max-height: 0;
   }
   
   #navbar-menu.block {

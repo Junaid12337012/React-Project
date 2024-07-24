@@ -6,19 +6,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryPeach: '#FFE9D0',
-        primaryYellow: '#FFFED3',
-        secondaryBlue: '#BBE9FF',
-        secondaryLavender: '#B1AFFF',
-        neutralWhite: '#FFFFFF',
-        neutralLightGrey: '#F8F9FA',
-        neutralGrey: '#D1D5DB',
-        accentCoral: '#FFA07A',
-        accentGold: '#FFD700',
-        accentGreen: '#98FB98',
+        primaryBlue: '#1E3A8A',          // A deeper, more professional blue
+        secondaryIvory: '#FDFDFD',       // Slightly off-white for a softer feel
+        lavenderMist: '#E0BBE4',         // A subtle lavender for highlights
+        neutralSnow: '#F9FAFB',          // A very light gray for backgrounds
+        neutralCloud: '#E5E7EB',         // A light gray for borders and lines
+        neutralStone: '#9CA3AF',         // A medium gray for text
+        accentSunset: '#FF5733',         // A vibrant coral for call-to-action elements
+        accentAmber: '#FFC107',          // A warm gold for highlights
+        accentMint: '#2ECC71',           // A refreshing green for success messages
       },
-    },
-  },
+      keyframes: {
+        rotate360: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        rotate360: 'rotate360 1s linear',
+      },
   plugins: [],
-}
-
+    };
+  };

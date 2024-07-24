@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center justify-center mx-4 md:mx-10 gap-6 md:gap-3 lg:gap-6'>
+    <div className='flex flex-col pt-3 items-center justify-center mx-4 md:mx-10 gap-6 md:gap-3 lg:gap-6'>
       <div className='w-full flex flex-col items-center'>
         <div className='flex flex-wrap justify-center gap-4 mb-4'>
           <a href="https://facebook.com" aria-label="Facebook">

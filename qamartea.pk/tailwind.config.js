@@ -25,6 +25,7 @@ module.exports = {
       animation: {
         rotate360: 'rotate360 1s linear',
       },
+    },
+  },
   plugins: [],
-    };
-  };
+};

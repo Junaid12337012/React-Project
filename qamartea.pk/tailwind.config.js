@@ -16,11 +16,15 @@ module.exports = {
         accentAmber: '#FFC107',          // A warm gold for highlights
         accentMint: '#2ECC71',           // A refreshing green for success messages
       },
-
+      keyframes: {
+        rotate360: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
       animation: {
         rotate360: 'rotate360 1s linear',
       },
   plugins: [],
     };
   };
-}

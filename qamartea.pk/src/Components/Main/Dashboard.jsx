@@ -4,7 +4,7 @@ const Dashboard = () => {
   const imageUrl = 'https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg';
 
   return (
-    <div className='container flex'>
+    <div className='container flex border border-black p-8 mt-10 gap-4 '>
       <div>
         <h1 className='font-bold'>logo</h1>
         <h1>hello world</h1>

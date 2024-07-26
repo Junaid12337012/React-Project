@@ -14,23 +14,6 @@ const Footer = () => {
   return (
     <div className='flex flex-col pt-3 items-center justify-center mx-4 md:mx-10 gap-6 md:gap-3 lg:gap-6'>
       <div className='w-full flex flex-col items-center'>
-        <div className='flex flex-wrap justify-center gap-4 mb-4'>
-          <a href="https://facebook.com" className='hover:text-[#1877F2]' aria-label="Facebook">
-            <FaFacebookF size={24} />
-          </a>
-          <a href='https://twitter.com'  className='hover:text-[#1DA1F2]' aria-label="Twitter">
-            <FaTwitter size={24} />
-          </a>
-          <a href='https://instagram.com' className='hover:text-[#F58529]' aria-label="Instagram">
-            <FaInstagram size={24}  />
-          </a>
-          <a href='https://linkedin.com'  className='hover:text-[#0077B5]' aria-label="LinkedIn">
-            <FaLinkedin size={24} />
-          </a>
-          <a href='https://youtube.com'  className='hover:text-[#FF0000]' aria-label="YouTube">
-            <FaYoutube size={24} />
-          </a>
-        </div>
         <hr className='w-full mb-4'/>
       </div>
       <div className='flex flex-col lg:flex-row w-full lg:justify-between lg:items-start p-4'>
@@ -87,8 +70,25 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className='flex flex-wrap justify-center gap-4 mb-4'>
+          <a href="https://facebook.com" className='hover:text-[#1877F2]' aria-label="Facebook">
+            <FaFacebookF size={24} />
+          </a>
+          <a href='https://twitter.com'  className='hover:text-[#1DA1F2]' aria-label="Twitter">
+            <FaTwitter size={24} />
+          </a>
+          <a href='https://instagram.com' className='hover:text-[#F58529]' aria-label="Instagram">
+            <FaInstagram size={24}  />
+          </a>
+          <a href='https://linkedin.com'  className='hover:text-[#0077B5]' aria-label="LinkedIn">
+            <FaLinkedin size={24} />
+          </a>
+          <a href='https://youtube.com'  className='hover:text-[#FF0000]' aria-label="YouTube">
+            <FaYoutube size={24} />
+          </a>
+        </div>
       <hr className='w-full mb-4'/>
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center pb-4 justify-center'>
         &copy; {new Date().getFullYear()} JUNAID . All rights reserved. <FaGlobe size={24} /> <span> Pakistan</span>
       </div>
     </div>

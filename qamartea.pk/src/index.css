@@ -1,8 +1,46 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer utilities {
-    .rotate-360 {
-      @apply animate-rotate360;
-    }
+
+/* Add custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDelay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.animate-fadeInDelay {
+  animation: fadeIn 2s ease-out forwards;
+}

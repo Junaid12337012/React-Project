@@ -86,8 +86,8 @@ const Navbar = () => {
         <div className="hidden lg:flex lg:items-center lg:space-x-4">
           <NavLink to='' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
           <NavLink to='/services' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Services</NavLink>
-          <NavLink to='/about' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">About</NavLink>
-          <NavLink to='/contact' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Contact</NavLink>
+          <NavLink to='About' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">About</NavLink>
+          <NavLink to='Contact' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Contact</NavLink>
         </div>
       </div>
     </nav>

@@ -1,20 +1,21 @@
+// src/components/Hero.jsx
 import React from 'react';
 
-const Dashboard = () => {
-  const imageUrl = 'https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg';
-
+const Hero = () => {
   return (
-    <div className='container flex border border-black p-8 mt-10 gap-4 '>
-      <div>
-        <h1 className='font-bold'>logo</h1>
-        <h1>hello world</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda commodi inventore ullam, fuga a iure odit minima, tempore impedit porro labore maxime voluptas officia? Possimus ad error neque at.</p>
+    <section className="relative bg-cover bg-center h-screen" style={{ backgroundImage: "url('https://source.unsplash.com/random/1920x1080')" }}>
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="container mx-auto px-4 h-full flex items-center justify-center">
+        <div className="text-center text-neutralSnow animate-fadeInUp">
+          <h1 className="text-5xl md:text-7xl font-bold leading-tight animate-fadeIn text-primaryBlue">Welcome to Our Amazing Website</h1>
+          <p className="mt-4 text-lg md:text-2xl animate-fadeInDelay text-neutralStone">We create stunning digital experiences that will take your breath away</p>
+          <button className="mt-8 px-8 py-3 bg-accentSunset hover:bg-accentAmber text-white font-semibold rounded-lg animate-bounce">
+            Get Started
+          </button>
+        </div>
       </div>
-      <div>
-        <img src={imageUrl} alt="View of street from a glass window" />
-      </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Dashboard;
+export default Hero;

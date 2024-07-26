@@ -13,8 +13,8 @@ import {
 } from 'react-router-dom';
 
 import AboutPage from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 import Dashboard from './Components/Main/Dashboard';
-import MainPage from './Components/Mainpage';
 import Services from './Components/Services/Services';
 import Layout from './Layout';
 import reportWebVitals from './reportWebVitals';
@@ -25,7 +25,7 @@ const router = createBrowserRouter(
           <Route path='' element={<Dashboard/>} />
           <Route path='Services' element={<Services/>}   />
           <Route path='About' element={<AboutPage/>} />
-          <Route path='Contact' element={<MainPage/>} />
+          <Route path='Contact' element={<Contact/>} />
       </Route>
     )
 )

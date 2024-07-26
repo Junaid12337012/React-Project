@@ -19,7 +19,7 @@ const Footer = () => {
       <div className='flex flex-col lg:flex-row w-full lg:justify-between lg:items-start p-4'>
         <div className='flex justify-center lg:justify-start mb-4 lg:mb-0'>
         <Link>
-        <h3 className='transform transition-all duration-300 hover:text-accentSunset hover:scale-105'>logo</h3>
+        <h3 className='transform transition-all duration-300 hover:text-accentSunset hover:scale-105'>TheDEV</h3>
         </Link>
         </div>
         <div className='flex flex-col lg:flex-row lg:justify-between w-full'>

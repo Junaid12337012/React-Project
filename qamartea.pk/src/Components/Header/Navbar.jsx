@@ -20,19 +20,19 @@ const Navbar = () => {
     <nav className=" m-1 p-2 shadow-md transition-all duration-300 ease-in-out">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold flex items-center space-x-2">
-          <Link to="/">
+          <Link to="">
             <div className='transform transition-all duration-300 hover:text-accentSunset hover:scale-105 flex items-center'>
               <svg className="w-8 h-8 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path>
               </svg>
-              <h3>Logo</h3>
+              <h3>TheDEV</h3>
             </div>
           </Link>
         </div>
         <div className="block md:hidden">
           <button
             onClick={toggleMenu}
-            className={`text-white flex flex-col focus:outline-none transition-transform duration-500 ease-in-out ${isOpen ? 'rotate-180' : ''}`}
+            className={`text-black flex flex-col focus:outline-none transition-transform duration-500 ease-in-out ${isOpen ? 'rotate-180' : ''}`}
             aria-expanded={isOpen}
             aria-controls="navbar-menu"
             aria-label="Toggle menu"
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <div className="flex flex-col space-y-2">
                   <ul>
                     <li>
-                      <NavLink to='/home' className="block bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
+                      <NavLink to='/' className="block bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
                     </li>
                     <li>
                       <NavLink to='/services' className="block bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Services</NavLink>
@@ -76,7 +76,7 @@ const Navbar = () => {
         {/* Tablet menu */}
         <div className="hidden md:block lg:hidden">
           <div className="flex space-x-4">
-            <NavLink to='/home' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
+            <NavLink to='' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
             <NavLink to='/services' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Services</NavLink>
             <NavLink to='/about' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">About</NavLink>
             <NavLink to='/contact' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Contact</NavLink>
@@ -84,7 +84,7 @@ const Navbar = () => {
         </div>
         {/* Desktop menu */}
         <div className="hidden lg:flex lg:items-center lg:space-x-4">
-          <NavLink to='/home' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
+          <NavLink to='' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Home</NavLink>
           <NavLink to='/services' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Services</NavLink>
           <NavLink to='/about' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">About</NavLink>
           <NavLink to='/contact' className="bg-primaryBlue px-3 py-2 rounded text-white no-underline transform transition-all duration-300 hover:bg-accentSunset hover:scale-105 shadow-md">Contact</NavLink>

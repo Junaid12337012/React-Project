@@ -13,13 +13,15 @@ import {
 } from 'react-router-dom';
 
 import Dashboard from './Components/Main/Dashboard';
+import Services from './Components/Services/Services';
 import Layout from './Layout';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Layout/>}>
-          <Route path='/' element={<Dashboard/>} />
+      <Route path='' element={<Layout/>}>
+          <Route path='' element={<Dashboard/>} />
+          <Route path='Services' element={<Services/>}   />
       </Route>
     )
 )
